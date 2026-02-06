@@ -1,7 +1,7 @@
 const LoginPage2 = () => {
   return (
     <div
-      className="w-screen min-h-screen bg-gradient-to-tr from-sky-200 via-purple-200 to-pink-200
+      className="w-screen h-screen bg-gradient-to-tr from-sky-200 via-purple-200 to-pink-200
  flex justify-center items-center"
     >
       <div className="w-75/100 h-75/100 border-none rounded-2xl shadow-2xl flex flex-wrap ">
