@@ -1,3 +1,12 @@
+<<<<<<< HEAD
+import js from "@eslint/js";
+import globals from "globals";
+import { defineConfig } from "eslint/config";
+
+export default defineConfig([
+  { files: ["**/*.{js,mjs,cjs}"], plugins: { js }, extends: ["js/recommended"], languageOptions: { globals: globals.node } },
+]);
+=======
 import js from '@eslint/js'
 import globals from 'globals'
 import reactHooks from 'eslint-plugin-react-hooks'
@@ -21,3 +30,4 @@ export default defineConfig([
     },
   },
 ])
+>>>>>>> 7867efe78e43c14fcbd3ca2814a94cdce5b2987d
