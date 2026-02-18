@@ -164,7 +164,7 @@ const Test = () => {
               />
               </div>)
        }
-          <div className="text-black relative z-50 text-3xl  ">{errorBackend}</div>
+          <div className="text-black z-50 text-3xl  ">{errorBackend}</div>
           <div
             className={`flex flex-col justify-center items-center gap-4 w-[35%] h-full   rounded-l-2xl bg-gradient-to-br from-[#2FB7A4] to-[#27A896] z-2 absolute ${slide ? "left-[65%] rounded-r-2xl rounded-l-none" : "left-0"} ${pop ? "scale-x-[2.5]" : "scale-x-[1]"} transition-all ease-in duration-700 `}
           >

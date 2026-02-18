@@ -85,6 +85,7 @@ const Dashboard1: React.FC = () => {
         center={position}
         zoom={14}
         style={{ width: '100%', height: '100%' }}
+        className='relative z-0'
       >
       
         <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
