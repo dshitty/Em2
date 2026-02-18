@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Lottie from "lottie-react";
 import loadingAnim from "../animations/loading.json";
 import tickAnim from "../animations/Success.json"
